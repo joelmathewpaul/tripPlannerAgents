@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "trip-planner"
+version = "0.1.0"
+description ="First AI agent app"
+authors = ["Joel Mathew Paul"]
+
+[tool.poetry.dependencies]
+python = ">=3.10.0, <3.13"
+crewai = "0.1.24"
+unstructured = '==0.10.25'
+pyowm = '3.3.0'
+tools ="^0.1.9"
+python-dotenv = "1.0.0"
+
+# [tool.ruff]
+# line-length = 88
+# target-version = "py311"
+# select = ["E", "F", "I"]
+# ignore = ["E203", "E501"]
+
+# [tool.ruff.format]
+# quote-style = "double"
+# indent-style = "space"
+
+
+# [tool.pyright]
+# pythonVersion = "3.11"
+# pythonPlatform = "Linux"
+# typeCheckingMode = "strict"
+# reportMissingImports = true
+# reportMissingTypeStubs = false
